@@ -15,6 +15,7 @@ def current_player(board)
  else
    puts "O"
  end
+ end
 
  def odd?(value)
 if value == 0
