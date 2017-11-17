@@ -9,7 +9,8 @@ end
     counter
 end
 def current_player(board)
-  if turn_count(board).to_i % 2 == .odd?
+ turn_count(board) % 2 = 
+if gets = i.odd?
     puts "X"
   else
     puts "O"
