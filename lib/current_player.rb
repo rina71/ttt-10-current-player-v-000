@@ -10,7 +10,7 @@ end
 end
 
 def current_player(board)
- 
+
  if turn_count(board) % 2 == 0
    puts "X"
  elsif turn_count(board) % 2 == 1
@@ -18,9 +18,4 @@ def current_player(board)
  end
  end
 
- def odd?(value)
-if value == 0
-    true
 
-  end
-end
