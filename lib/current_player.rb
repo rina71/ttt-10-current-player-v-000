@@ -8,9 +8,10 @@ end
 end
     counter
 end
+
 def current_player(board)
- value = turn_count(board) % 2 
- if value == odd?(value)
+ turn_count(board) % 2 =
+ if gets == odd?(value)
    puts "X"
  else
    puts "O"
